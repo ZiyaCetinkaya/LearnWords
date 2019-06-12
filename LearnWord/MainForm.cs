@@ -244,6 +244,7 @@ namespace LearnWord
 
         private void btnNewProfile_Click(object sender, EventArgs e)
         {
+            btnSaveNewProfile.Text = "Ekle";
             pnlNewProfile.Visible = true;
             pnlSelectProfile.Visible = false;
         }
@@ -441,6 +442,7 @@ namespace LearnWord
                     SetAlert("Yeni kelime tipi eklendi.");
                     List<WordType> wordTypes = wtas.Select(wt => wt.profileID == currentProfile.ProfileID);
                     FillWordTypesToListView(wordTypes);
+                    FillWordTypesToComboBox(wordTypes);
                 }
                 else if (btnSaveWordType.Text == "Güncelle") // Kelime Tipi Güncelleme
                 {

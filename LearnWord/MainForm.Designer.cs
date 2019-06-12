@@ -839,7 +839,7 @@
             this.lblClock.AutoSize = true;
             this.lblClock.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblClock.ForeColor = System.Drawing.Color.White;
-            this.lblClock.Location = new System.Drawing.Point(1014, 20);
+            this.lblClock.Location = new System.Drawing.Point(927, 20);
             this.lblClock.Name = "lblClock";
             this.lblClock.Size = new System.Drawing.Size(0, 30);
             this.lblClock.TabIndex = 0;
